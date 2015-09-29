@@ -2,7 +2,7 @@ package ex1subversion;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+//comentari del projecte 2
 public class principal {
 	public static void main(String[] args) {	
 		Scanner scan = new Scanner(System.in);
@@ -17,4 +17,4 @@ public class principal {
 	}
 }
 //comentari del projecte 1
-//hola
+//adeu
