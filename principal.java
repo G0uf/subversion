@@ -16,3 +16,4 @@ public class principal {
 		System.out.print(array[0] + array[9]);
 	}
 }
+//comentari del projecte 1
