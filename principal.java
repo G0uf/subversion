@@ -6,13 +6,13 @@ import java.util.Scanner;
 public class principal {
 	public static void main(String[] args) {	
 		Scanner scan = new Scanner(System.in);
-		int[] array = new int[5];
-		System.out.println("insereix 5 num");	
+		int[] array = new int[10];
+		System.out.println("insereix 10 num");	
 		
-		for(int i=0;i<5;i++){
+		for(int i=0;i<10;i++){
 			array[i] = scan.nextInt();
 		}
 		Arrays.sort(array);
-		System.out.print(array[0]);
+		System.out.print(array[0] + array[9]);
 	}
 }
